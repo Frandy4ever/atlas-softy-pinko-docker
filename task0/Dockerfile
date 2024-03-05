@@ -1,11 +1,11 @@
-#Use of the latest Ubuntu image from Docker
+# Use of the latest Ubuntu image from Docker
 FROM ubuntu:latest
 
-#Update the package list
+# Update the package list
 RUN apt-get update
 
-#Install the package
+# Install the package
 RUN apt-get install -y
 
-#Run the command
+# Run the command
 CMD echo "Hello World"
