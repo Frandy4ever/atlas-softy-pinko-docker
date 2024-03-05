@@ -17,7 +17,7 @@ RUN pip3 install flask
 WORKDIR /app/
 
 # Copy the Python file to the container
-COPY ./api.py /app/api.py
+COPY ./task1/api.py /app/api.py
 
 # Expose port 5252 for the Flask app
 EXPOSE 5252
