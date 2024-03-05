@@ -1,1 +1,1 @@
-![Docker @ Work]('/images/Docker@Work.webp')
+![Docker @ Work](/images/Docker@Work.webp)
